@@ -1,2 +1,3 @@
 # Ignore CMake generated files
 build/
+.vs/

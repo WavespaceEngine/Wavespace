@@ -18,7 +18,8 @@ add_subdirectory(${THIRDPARTY_FOLDER}/glfw)
 
 add_executable(Wavespace
     ${SRC_FOLDER}/glad.c
-    ${SRC_FOLDER}/main.cpp)
+    ${SRC_FOLDER}/main.cpp
+    ${SRC_FOLDER}/VBO.cpp)
 
 target_include_directories(Wavespace PUBLIC ${INCLUDE_FOLDER})
 
